@@ -36,28 +36,6 @@ hr{
     border: 1px solid #d1d1d1;
     margin-bottom: 27px;
 }
-/* top players section css start here */
-.top-players{
-    margin-bottom: 30px;
-}
-.players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-}
-
-.player{
-    display: flex;
-    align-items: center;
-}
-.player img{
-    width: 56px;
-}
-.player-name{
-    margin: 16px;
-    font-size: 18px;
-}
-
 /* nav bar style */
 header{
     background-color: #562eff;
@@ -100,6 +78,29 @@ header{
 .nav-menu ul li a img{
     width: 51px;
 }
+/* top players section css start here */
+.top-players{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+}
+.player-name{
+    margin: 16px;
+    font-size: 18px;
+}
+
+
 
 /* top blogs styls */
 .blogs{
