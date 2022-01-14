@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 /* common styls */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
+    
 }
 
 main{
@@ -53,6 +58,48 @@ hr{
     font-size: 18px;
 }
 
+/* nav bar style */
+header{
+    background-color: #562eff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.nav-wrep{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0;
+}
+.logo a{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+}
+.logo a span{
+    margin-left: 10px;
+    color: #fff;
+}
+.logo a img{
+    width: 51px;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li a{
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu ul li a img{
+    width: 51px;
+}
 
 /* top blogs styls */
 .blogs{
